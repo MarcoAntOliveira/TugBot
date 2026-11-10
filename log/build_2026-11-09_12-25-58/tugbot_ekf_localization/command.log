@@ -1,1 +1,0 @@
-Invoking command in '/home/marcos/projects/TugBot/build/tugbot_ekf_localization': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/marcos/projects/TugBot/tugbot_ekf_localization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/marcos/projects/TugBot/install/tugbot_ekf_localization
