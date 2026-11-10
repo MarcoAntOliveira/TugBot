@@ -1,0 +1,40 @@
+[0.021s] Invoking command in '/home/marcos/projects/TugBot/build/tugbot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/marcos/projects/TugBot/tugbot_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/marcos/projects/TugBot/install/tugbot_description
+[0.034s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.034s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.034s]   CMake.
+[0.034s] 
+[0.034s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.034s]   CMake that the project does not need compatibility with older versions.
+[0.034s] 
+[0.034s] [0m
+[0.253s] -- The C compiler identification is GNU 13.3.0
+[0.554s] -- The CXX compiler identification is GNU 13.3.0
+[0.591s] -- Detecting C compiler ABI info
+[0.779s] -- Detecting C compiler ABI info - done
+[0.828s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.828s] -- Detecting C compile features
+[0.830s] -- Detecting C compile features - done
+[0.855s] -- Detecting CXX compiler ABI info
+[1.010s] -- Detecting CXX compiler ABI info - done
+[1.025s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.025s] -- Detecting CXX compile features
+[1.026s] -- Detecting CXX compile features - done
+[1.041s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[1.041s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.041s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.041s]   CMake did not find one.
+[1.041s] 
+[1.041s]   Could not find a package configuration file provided by "catkin" with any
+[1.041s]   of the following names:
+[1.041s] 
+[1.041s]     catkinConfig.cmake
+[1.041s]     catkin-config.cmake
+[1.041s] 
+[1.041s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.041s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.041s]   provides a separate development package or SDK, be sure it has been
+[1.042s]   installed.
+[1.042s] 
+[1.042s] [0m
+[1.044s] -- Configuring incomplete, errors occurred!
+[1.047s] Invoked command in '/home/marcos/projects/TugBot/build/tugbot_description' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/marcos/projects/TugBot/tugbot_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/marcos/projects/TugBot/install/tugbot_description
